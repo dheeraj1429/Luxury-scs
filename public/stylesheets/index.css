@@ -1,0 +1,457 @@
+.navbar {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: var(--smooth-gr);
+}
+.navbar i {
+   color: var(--main-cl);
+}
+.navbar .navbar-brand img {
+   width: 60%;
+}
+.icons i {
+   font-size: 40px;
+}
+.icons .hover_icons_div {
+   display: flex;
+   align-items: center;
+}
+.icons .hover_icons_div a {
+   color: var(--smooth-dark-cl-lg);
+   text-decoration: none;
+   margin: 0;
+   font-size: 20px;
+}
+.hover_icons_div i {
+   color: var(--yellow-gold);
+}
+.navbar .navbar-nav a {
+   color: var(--main-cl);
+   font-size: 15px;
+   margin: 0 0.5rem;
+   font-weight: 600;
+}
+.navbar .nav-item {
+   transition: all 0.3s ease;
+   border-bottom: 2px solid transparent;
+}
+.navbar .nav-item:hover {
+   border-bottom: 2px solid var(--yellow-gold);
+}
+.navbar .navbar-nav a:hover {
+   color: var(--yellow-gold);
+}
+.hover_icons_div p {
+   margin: 0;
+   color: var(--yellow-gold);
+}
+.navbar .navbar-toggler {
+   position: absolute;
+   right: 20px;
+   top: 25px;
+}
+/* banner section */
+.banner_section {
+   width: 100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(https://federategroup.com/wp-content/uploads/2022/07/lawyer-and-intern-working-together.jpg);
+   background-position: top;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 0;
+}
+
+.banner_section h1 {
+   font-size: 55px;
+   font-weight: 600;
+}
+
+.banner_section .topHeading {
+   color: var(--yellow-gold);
+}
+
+.banner_section h1 {
+   color: var(--main-cl);
+}
+
+.banner_section p {
+   font-size: 23px;
+   color: var(--main-cl);
+   font-weight: 500;
+   font-style: italic;
+}
+
+/* banner section */
+
+/* banner form */
+.banner_section .fromDiv {
+   width: 100%;
+   border-radius: 8px;
+}
+.banner_section .fromTopBar {
+   width: 100%;
+   display: flex;
+   background-color: var(--smooth-dark-cl);
+   border-radius: 8px 8px 0 0;
+   overflow: hidden;
+}
+.banner_section .fromDiv .Tab_div {
+   padding: 0.8rem 3rem;
+   cursor: pointer;
+   border-bottom: 3px solid transparent;
+}
+.banner_section .fromDiv .Tab_div p {
+   font-style: normal;
+   margin: 0;
+   color: var(--yellow-gold);
+   font-weight: 600;
+   font-size: 17px;
+}
+.banner_section .fromDiv .active_bar {
+   border-bottom: 3px solid var(--yellow-gold);
+}
+.banner_section .formControlles {
+   width: 100%;
+   padding: 1rem;
+   background-color: var(--smooth-dark-cl-lg);
+   border-radius: 0 0 8px 8px;
+}
+.banner_section .input_from_div {
+   width: 100%;
+   padding: 0.5rem 1rem;
+   padding-top: 0.7rem;
+   background-color: var(--light-smooth-white);
+   border-radius: 8px;
+   display: flex;
+   align-items: flex-end;
+   height: 100%;
+   margin-bottom: 1rem;
+}
+.banner_section .input_from_div .icon_div {
+   width: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 0.4rem;
+}
+.banner_section .input_from_div .icon_div i {
+   color: var(--yellow-gold);
+}
+.banner_section .input_from_div .formInput span {
+   color: var(--yellow-gold);
+   font-size: 16px;
+   font-weight: 500;
+}
+.banner_section .input_from_div .formInput input {
+   width: 100%;
+   background: transparent;
+   color: var(--main-cl);
+   border: none;
+   outline: none;
+}
+.banner_section .input_from_div .formInput input::placeholder {
+   color: var(--main-cl);
+}
+.banner_section .input_from_div .formInput select {
+   width: 100%;
+   border: none;
+   background-color: transparent;
+   color: var(--main-cl);
+   outline: none;
+}
+.banner_section .input_from_div .formInput select option {
+   color: var(--smooth-dark-cl);
+}
+.banner_section .formControlles .flex_div {
+   display: flex;
+   align-items: center;
+}
+.banner_section .formControlles .half {
+   width: 50%;
+}
+/* banner form */
+
+/* counter section */
+.counter-section h1 {
+   font-size: 38px;
+}
+.counter-section p {
+   font-size: 20px;
+}
+/* counter section */
+
+/* We’ve Got You Covered!  */
+.we_got_convered h1 {
+   font-size: 28px;
+   font-weight: 600;
+   line-height: 42px;
+}
+.we_got_convered .slider_cart {
+   padding: 2rem 1rem;
+   background-color: var(--smooth-dark-cl);
+   height: 100%;
+}
+.we_got_convered h4 {
+   color: var(--yellow-gold);
+   font-size: 28px;
+}
+.we_got_convered .slider_cart p {
+   color: var(--main-cl);
+}
+/* We’ve Got You Covered!  */
+
+/* DISCOUNT */
+.discount_section {
+   padding: 40px 20px;
+   background-color: var(--smooth-dark-cl);
+}
+
+.discount_section h1 {
+   font-size: 28px;
+   color: var(--main-cl);
+   font-weight: 600;
+   margin: 0;
+}
+
+.discount_section span {
+   color: var(--yellow-gold);
+}
+/* DISCOUNT */
+
+/* Breathe Luxury */
+.bratheSection h1 {
+   font-size: 28px;
+}
+.bratheSection .car-div {
+   width: 100%;
+   height: 290px;
+}
+.bratheSection .car-div img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+.bratheSection .car-prev-div h5 {
+   font-weight: 600;
+   font-size: 22px;
+}
+/* Breathe Luxury */
+
+/* service */
+.service .iconGroup h5 {
+   font-size: 25px;
+}
+.service .iconGroup p {
+   font-size: 15px;
+}
+.service i {
+   font-size: 50px;
+   margin-bottom: 1rem;
+   color: var(--yellow-gold);
+   transition: all 0.2s ease;
+}
+.service .hover_div:hover i {
+   transform: translateY(-10px);
+}
+/* service */
+
+/* Clients Express */
+.ClientsExpress .testimonial_div {
+   width: 100%;
+   padding: 2rem;
+   background-color: var(--main-cl);
+   box-shadow: 0 0 50px 1px #d4d4d4;
+   border-radius: 12px;
+   padding-bottom: 3rem;
+   height: 100%;
+}
+.ClientsExpress .userProfile {
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin: auto;
+}
+.ClientsExpress .userProfile img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transform: scale(1.3);
+}
+.ClientsExpress .testimonial_div p {
+   font-size: 14px;
+}
+.ClientsExpress .testimonial_div h5 {
+   font-size: 18px;
+   margin: 0;
+   font-weight: 600;
+   color: var(--smooth-dark-cl);
+}
+.ClientsExpress .testimonial_div .line_div {
+   max-width: 30%;
+   height: 2px;
+   background-color: var(--yellow-gold);
+   margin: auto;
+}
+.ClientsExpress .testimonial_div span {
+   font-size: 14px;
+}
+/* Clients Express */
+
+/* Queries */
+.same_query .accordion-button:not(.collapsed) {
+   color: var(--smooth-dark-cl);
+   font-size: 19px;
+   background-color: transparent;
+   transition: all 0.2s ease;
+   /* background-color: var(--smooth-dark-cl-lg); */
+}
+.accordion-button::after {
+   flex-shrink: 0;
+   width: 1.25rem;
+   height: 1.25rem;
+   margin-left: auto;
+   content: '';
+   background-image: url(https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png);
+   background-repeat: no-repeat;
+   background-size: 1.25rem;
+   transition: transform 0.2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after {
+   background-image: url(https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png);
+   transform: rotate(-180deg);
+}
+.same_query .accordion-body p {
+   font-size: 15px;
+}
+/* Queries */
+
+/* A Glimpse About Our Journey */
+.our_journey {
+   background-image: none;
+}
+.our_journey .formControlles {
+   border-radius: 8px;
+}
+.our_journey h5 {
+   font-size: 19px;
+   font-weight: 600;
+   color: var(--main-cl);
+}
+.our_journey h2 {
+   font-size: 29px;
+   font-weight: 600;
+}
+.our_journey p {
+   color: var(--smooth-dark-cl);
+   font-style: normal;
+   font-size: 18px;
+}
+/* A Glimpse About Our Journey */
+
+.my-button.collapse-nav-button:before {
+   content: '\2212';
+}
+.collapsed .my-button.collapse-nav-button:before {
+   content: '\2b';
+}
+
+.About_Federate_Group h1 {
+   font-size: 30px;
+   margin-top: 1rem;
+   line-height: 40px;
+}
+
+.About_Federate_Group p {
+   font-size: 16px;
+}
+
+.About_Federate_Group h4 {
+   font-size: 17px;
+   color: #4a7549;
+}
+
+.cart_slider_show .Cart_cart {
+   border-radius: 5px;
+   padding: 0.5rem;
+   width: 100%;
+}
+
+.cart_slider_show .car_name_div {
+   width: 100%;
+   text-align: center;
+   background-color: #000;
+   border-radius: 5px;
+   padding: 0.3rem;
+}
+
+.cart_slider_show .car_name_div p {
+   font-size: 25px;
+   margin: 0;
+   color: var(--main-cl);
+}
+
+.cart_slider_show .car_image_div {
+   width: 100%;
+   margin-top: 0.3rem;
+   height: 200px;
+   padding: 0.2rem;
+   border-radius: 5px;
+}
+
+.cart_slider_show .car_image_div img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+
+.cart_slider_show .car_info p {
+   margin-bottom: 0.5rem;
+}
+
+.cart_slider_show .car_button_div button {
+   border: none;
+   background-color: transparent;
+   padding: 0.5rem;
+   color: var(--main-cl);
+   border-radius: 4px;
+   width: 100%;
+   font-size: 11px;
+}
+
+.cart_slider_show .car_button_div .danger {
+   background-color: var(--yellow-gold);
+}
+
+.cart_slider_show .car_button_div .light_what {
+   background-color: #03a100;
+}
+
+.cart_slider_show .car_button_div .dark {
+   background-color: #3c342c;
+}
+
+.cart_slider_show .ic_div h5 {
+   font-size: 25px;
+}
+
+.cart_slider_show .ic_div p {
+   margin-bottom: 0.2rem;
+}
+
+.cart_slider_show .ic_div p:nth-child(1),
+.cart_slider_show .car_info p:nth-child(1) {
+   font-size: 18px;
+}
+
+.cart_slider_show .ic_div p:nth-child(2),
+.cart_slider_show .car_info p:nth-child(2) {
+   color: rgb(82, 82, 82);
+}
+
+.cart_slider_show .Promotion p {
+   color: #03a100 !important;
+}

@@ -1,0 +1,32 @@
+footer {
+   background-color: var(--smooth-dark-cl);
+}
+footer h5 {
+   font-size: 18px;
+   color: var(--main-cl);
+   font-weight: 600;
+}
+footer p {
+   color: var(--gray);
+   font-size: 14px;
+}
+footer .icons_div {
+   display: flex;
+   align-items: center;
+}
+footer .icons_div p {
+   margin: 0;
+   margin-left: 1rem;
+}
+footer .icons_div i {
+   color: var(--main-cl);
+}
+footer .lowerFooter {
+   background-color: var(--smooth-dk-cl);
+}
+footer .lowerFooter i {
+   color: var(--gray);
+   font-size: 20px;
+   margin-right: 0.5rem;
+   cursor: pointer;
+}

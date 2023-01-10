@@ -1,0 +1,23 @@
+.getAQuety {
+   width: 100%;
+   padding: 1rem;
+   border-radius: 8px;
+   border: none;
+   color: var(--main-cl);
+   background-color: var(--yellow-gold);
+   transition: all 0.3s ease;
+}
+.getAQuety:hover {
+   background-color: var(--smooth-dk-cl);
+}
+.buy_now_btn {
+   padding: 0.5rem 3rem;
+   border: none;
+   background-color: var(--smooth-dk-cl);
+   color: var(--main-cl);
+   border-radius: 4px;
+   transition: all 0.2s ease;
+}
+.buy_now_btn:hover {
+   background-color: var(--yellow-gold);
+}

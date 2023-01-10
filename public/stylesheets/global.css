@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Hind Siliguri', sans-serif;
+}
+
+:root {
+   --main-cl: #fff;
+   --gray: rgb(202, 202, 202);
+   --dark-cl: #000;
+   --yellow-gold: #cdac5b;
+   --smooth-dark-cl: #1e2225dc;
+   --smooth-dk-cl: #1e2225;
+   --smooth-gr: #1e222541;
+   --smooth-dark-cl-lg: #26292db4;
+   --light-smooth-white: #9595956d;
+}
+
+.side_padding_one {
+   padding: 0 70px;
+}
+
+.side_padding_tow {
+   padding: 0 150px;
+}
+
+.side_padding_three {
+   padding: 0 180px;
+}
+
+.padding_top_bottom {
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+.padding_top {
+   padding-top: 30px;
+}

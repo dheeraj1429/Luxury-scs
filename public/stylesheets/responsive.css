@@ -1,0 +1,112 @@
+@media (max-width: 1100px) {
+   .banner_section h1 {
+      font-size: 38px;
+   }
+   .counter-section h1 {
+      font-size: 28px;
+   }
+   .we_got_convered h1 {
+      font-size: 24px;
+   }
+   .we_got_convered h4 {
+      font-size: 20px;
+   }
+   .discount_section h1 {
+      font-size: 22px;
+   }
+   .our_journey h5 {
+      line-height: 25px;
+   }
+   .our_journey p {
+      font-size: 16px;
+   }
+   .our_journey h2 {
+      font-size: 24px;
+   }
+   .bratheSection .car-div {
+      height: 200px;
+   }
+   .bratheSection .car-prev-div h5 {
+      font-size: 16px;
+   }
+   .icons {
+      display: none;
+   }
+}
+
+@media (max-width: 800px) {
+   .discount_section h1 {
+      font-size: 17px;
+   }
+   .bratheSection h1 {
+      font-size: 21px;
+      margin-bottom: 1rem;
+   }
+   .we_got_convered h1 {
+      font-size: 20px;
+      line-height: normal;
+   }
+   .banner_section h1 {
+      font-size: 29px;
+   }
+   .banner_section p {
+      font-size: 19px;
+   }
+   .side_padding_one {
+      padding: 0 29px;
+   }
+   .banner_section .fromDiv .Tab_div p {
+      font-size: 16px;
+   }
+   .navbar {
+      background-color: var(--smooth-dk-cl);
+   }
+   .thankYou .main_div h1 {
+      font-size: 30px;
+   }
+   .thankYou .main_div p {
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 600px) {
+   .banner_section .formControlles .half {
+      width: 100%;
+   }
+   .banner_section .formControlles .flex_div {
+      display: grid;
+   }
+   .banner_section .fromDiv .Tab_div {
+      padding: 0.5rem 2rem;
+   }
+   .banner_section .fromDiv .Tab_div p {
+      font-size: 15px;
+   }
+}
+
+@media (max-width: 400px) {
+   .banner_section p {
+      font-size: 15px;
+   }
+   .our_journey h5 {
+      font-size: 16px;
+   }
+   .we_got_convered h1 {
+      font-size: 16px;
+   }
+   .we_got_convered br {
+      display: none;
+   }
+   .discount_section h1 {
+      font-size: 14px;
+   }
+   .bratheSection h1 {
+      font-size: 16px;
+   }
+   .service .iconGroup p {
+      font-size: 13px;
+   }
+   .same_query .accordion-button:not(.collapsed) {
+      font-size: 14px;
+   }
+}
